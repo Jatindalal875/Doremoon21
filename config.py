@@ -11,15 +11,15 @@ API_ID = int(getenv("API_ID", "12834603"))
 API_HASH = getenv("API_HASH", "84a5daf7ac334a70b3fbd180616a76c6")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "6498149094:AAF16kw-2foEdWr9tR5OC75in9MLgi15sY0")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://setade1268:umeOetByhdXOEBXY@cluster0.34cuhf7.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 360))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1001815554788"))
+LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
 # Get this value from @FallenxBot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", "5615344987"))
@@ -38,7 +38,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Jatindalal875/Doremoon21",
+    "",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -68,7 +68,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", "AQDD1ysAkvA2aR4Rlc4APB48Ju7iOaa_sPckGmCoNeQOhUQtLtttpRDrjTvd8bMqlBYWkw2X_m9F2XTFjOU0h6VHAfScxJH40tHci2mUuV1eJ3-_Ai6MV4N8Uh5lTH0DVweHmqABA8YLbVED0RIfdKkCgrb_RGrNK6Eo9JSNonf47Oyrr-PgczClwLLyYgo145RcTnHg655vRJY2aAsmtAQw4eibaLAxF-FyockbyhWOIF9u3P-vM-sfrEAbRAVXG8gYHAibNiXkRP0Ek3PGSxaGZ9EecJBdxtNI-vBYuJb0VPrSB3FDn8CfJDxNPhMrpHnWt8EJr07lCrGDOrzY638poiEeGQAAAAF71k1rAA")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
